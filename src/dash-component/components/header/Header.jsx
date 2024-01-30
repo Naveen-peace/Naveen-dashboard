@@ -93,7 +93,7 @@ function Header() {
                                 <img style={{ width: '103px', height: '60px' }} src={icon} alt="" />
                             </a>
                             <div className={`nav-bar-two ${showMenu && 'active'}`}>
-                                <Link to={'/'} onClick={() => handleNavItemClick('/dashboard')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/dashboard' ? 'active' : ''}`}>Home</Link>
+                                <Link to={'/Naveen-dashboard'} onClick={() => handleNavItemClick('/dashboard')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/dashboard' ? 'active' : ''}`}>Home</Link>
                                 <Link to={'/about-page'} onClick={() => handleNavItemClick('/about-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/about-page' ? 'active' : ''}`}>About</Link>
                                 <Link to={'/skill-page'} onClick={() => handleNavItemClick('/skill-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/skill-page' ? 'active' : ''}`}>Skill</Link>
                                 <Link to={'/project-page'} onClick={() => handleNavItemClick('/project-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/project-page' ? 'active' : ''}`}>Project</Link>
