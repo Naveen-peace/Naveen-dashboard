@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Naveen-dashboard/static/css/main.df365e9b.css",
-    "main.js": "/Naveen-dashboard/static/js/main.76d68ffe.js",
+    "main.js": "/Naveen-dashboard/static/js/main.a2eea3d6.js",
     "static/media/html-css-js4.png": "/Naveen-dashboard/static/media/html-css-js4.84ef894bc6e25d078618.png",
     "static/media/react-webpage2.png": "/Naveen-dashboard/static/media/react-webpage2.8d5b5972a127370873ba.png",
     "static/media/html-css1.png": "/Naveen-dashboard/static/media/html-css1.216200b8339f41e6e41e.png",
@@ -14,10 +14,10 @@
     "static/media/icon (2).svg": "/Naveen-dashboard/static/media/icon (2).7abe61e9616e6e851a2aacad9a80570b.svg",
     "index.html": "/Naveen-dashboard/index.html",
     "main.df365e9b.css.map": "/Naveen-dashboard/static/css/main.df365e9b.css.map",
-    "main.76d68ffe.js.map": "/Naveen-dashboard/static/js/main.76d68ffe.js.map"
+    "main.a2eea3d6.js.map": "/Naveen-dashboard/static/js/main.a2eea3d6.js.map"
   },
   "entrypoints": [
     "static/css/main.df365e9b.css",
-    "static/js/main.76d68ffe.js"
+    "static/js/main.a2eea3d6.js"
   ]
 }
