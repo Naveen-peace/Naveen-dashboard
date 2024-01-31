@@ -14,4 +14,8 @@ module.exports = {
     // Use the 'public' directory as the target
     dist: './public',
     // Add other react-snap options as needed
+    options: {
+        // Add other options as needed
+        skip: ['/404.html'],
+    },
 };

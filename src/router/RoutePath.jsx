@@ -10,10 +10,10 @@ function RoutePath() {
   return (
     <Routes>
       <Route path="/Naveen-dashboard" element={<DashBoard />} />
-      <Route path="/about-page" element={<About />} />
-      <Route path="/skill-page" element={<Skill />} />
-      <Route path="/project-page" element={<Project />} />
-      <Route path="/contact-page" element={<Contact />} />
+      <Route path="/Naveen-dashboard/about-page" element={<About />} />
+      <Route path="/Naveen-dashboard/skill-page" element={<Skill />} />
+      <Route path="/Naveen-dashboard/project-page" element={<Project />} />
+      <Route path="/Naveen-dashboard/contact-page" element={<Contact />} />
     </Routes>
   );
 }
