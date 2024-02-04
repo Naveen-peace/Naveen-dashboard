@@ -11,7 +11,6 @@ import Project from '../dash-component/components/pages/Project';
 function RoutePath() {
   return ( 
       <Routes>
-        <Route path="/" element={<DashBoard />} />
         <Route path="/naveen-dashboard" element={<DashBoard />} />
         <Route path="/naveen-dashboard/about-page" element={<About />} />
         <Route path="/naveen-dashboard/skill-page" element={<Skill />} />
