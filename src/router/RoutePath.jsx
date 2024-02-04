@@ -11,11 +11,11 @@ import Project from '../dash-component/components/pages/Project';
 function RoutePath() {
   return ( 
       <Routes>
-        <Route path="/Naveen-dashboard" element={<DashBoard />} />
-        <Route path="/Naveen-dashboard/about-page" element={<About />} />
-        <Route path="/Naveen-dashboard/skill-page" element={<Skill />} />
-        <Route path="/Naveen-dashboard/project-page" element={<Project />} />
-        <Route path="/Naveen-dashboard/contact-page" element={<Contact />} />
+        <Route path="/naveen-dashboard" element={<DashBoard />} />
+        <Route path="/naveen-dashboard/about-page" element={<About />} />
+        <Route path="/naveen-dashboard/skill-page" element={<Skill />} />
+        <Route path="/naveen-dashboard/project-page" element={<Project />} />
+        <Route path="/naveen-dashboard/contact-page" element={<Contact />} />
       </Routes>
   );
 }

@@ -89,7 +89,7 @@ function Header() {
                 <div className="lol-container">
                     <div className="nav-bar">
                         <div className="nav-bar-one">
-                            <a href="/Naveen-dashboard">
+                            <a href="/naveen-dashboard">
                                 <img style={{ width: '103px', height: '60px' }} src={icon} alt="" />
                             </a>
                             <div className={`nav-bar-two ${showMenu && 'active'}`}>
@@ -98,11 +98,11 @@ function Header() {
                                 <Link to={'/skill-page'} onClick={() => handleNavItemClick('/skill-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/skill-page' ? 'active' : ''}`}>Skill</Link>
                                 <Link to={'/project-page'} onClick={() => handleNavItemClick('/project-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/project-page' ? 'active' : ''}`}>Project</Link>
                                 <Link to={'/contact-page'} onClick={() => handleNavItemClick('/contact-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/contact-page' ? 'active' : ''}`}>Contact</Link> */}
-                                 <Link to={'/Naveen-dashboard'} onClick={() => handleNavItemClick('/dashboard')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/Naveen-dashboard/' ? 'active' : ''}`}>Home</Link>  
-                                <Link to={'/Naveen-dashboard/about-page'} onClick={() => handleNavItemClick('/about-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/Naveen-dashboard/about-page' ? 'active' : ''}`}>About</Link>
-                                <Link to={'/Naveen-dashboard/skill-page'} onClick={() => handleNavItemClick('/skill-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/Naveen-dashboard/skill-page' ? 'active' : ''}`}>Skill</Link>
-                                <Link to={'/Naveen-dashboard/project-page'} onClick={() => handleNavItemClick('/project-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/Naveen-dashboard/project-page' ? 'active' : ''}`}>Project</Link>
-                                <Link to={'/Naveen-dashboard/contact-page'} onClick={() => handleNavItemClick('/contact-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/Naveen-dashboard/contact-page' ? 'active' : ''}`}>Contact</Link>
+                                 <Link to={'/naveen-dashboard'} onClick={() => handleNavItemClick('/dashboard')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/naveen-dashboard/' ? 'active' : ''}`}>Home</Link>  
+                                <Link to={'/naveen-dashboard/about-page'} onClick={() => handleNavItemClick('/about-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/naveen-dashboard/about-page' ? 'active' : ''}`}>About</Link>
+                                <Link to={'/naveen-dashboard/skill-page'} onClick={() => handleNavItemClick('/skill-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/naveen-dashboard/skill-page' ? 'active' : ''}`}>Skill</Link>
+                                <Link to={'/naveen-dashboard/project-page'} onClick={() => handleNavItemClick('/project-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/naveen-dashboard/project-page' ? 'active' : ''}`}>Project</Link>
+                                <Link to={'/naveen-dashboard/contact-page'} onClick={() => handleNavItemClick('/contact-page')} className={`nav-bar-tow-hover hover-underline-animation ${location.pathname === '/naveen-dashboard/contact-page' ? 'active' : ''}`}>Contact</Link>
 
                             </div>
                         </div>

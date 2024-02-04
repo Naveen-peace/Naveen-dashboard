@@ -23,10 +23,10 @@ function DashBoard() {
                             <h2>Naveen Kumar.S</h2>
                             <h3>I build things for web.</h3>
                             <h5>As a frontend developer, I am excited about the power of technology to shape compelling user experiences. Eager to contribute, collaborate, and learn, I'm ready to make an impact in the world of frontend development. Let's build something extraordinary together!</h5>
-                            <a href="/Naveen-dashboard/contact-page">
+                            <a href="/naveen-dashboard/contact-page">
                                 <button>
                                     <Icon icon="gravity-ui:arrow-shape-turn-up-right" width="20" height="20" />
-                                    <span to='/Naveen-dashboard/contact-page'>Contact me</span>
+                                    <span to='/naveen-dashboard/contact-page'>Contact me</span>
                                 </button>
                             </a>
                         </div>
