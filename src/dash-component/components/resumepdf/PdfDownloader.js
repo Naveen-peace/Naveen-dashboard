@@ -12,9 +12,9 @@ function PdfDownloader() {
         setNumPages(numPages);
     }
 
-    function openModel() {
-        setModelIsOpen(true);
-    }
+    // function openModel() {
+    //     setModelIsOpen(true);
+    // }
 
     function closeModel() {
         setModelIsOpen(false);

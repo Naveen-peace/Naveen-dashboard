@@ -49,7 +49,7 @@ function Contact() {
       emailjs.init("xmXfFAkt0lvm8ew0v");
 
       try {
-        const response = await emailjs.send(serviceID, templateID, formData);
+        await emailjs.send(serviceID, templateID, formData);
 
         setFormData({
           name: '',
